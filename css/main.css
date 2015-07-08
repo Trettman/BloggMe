@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #EFE9F2;
+}
+
+header div#top{
+    width: 100%;
+    height: 100px;
+    background-color: #5B4181;
+}
+
+header img {
+    height: 50px;
+    margin: 18px 0 0 25%;
+    float: left;
+}
+
+header input {
+    height: 36px;
+    font-size: 18px;
+    float: left;
+    outline: 0 none;
+    border: none;
+}
+
+header input#search[type="text"] {
+    background-image: url(Search.png);
+    background-position: 7px 7px;
+    background-repeat: no-repeat;
+    padding-left: 32px;
+    width: 30%;
+    margin: 32px 0 0 20px;
+}
+
+header input[type="submit"] {
+    width: 80px;
+    font-size: 14px;
+    color: white;
+    background-color: #48a2df;
+    margin-top: 32px;
+}
+
+header input[type="submit"]:hover {
+    background-color: #4391C4;
+}
+
+header a.button {
+    font-size: 14px;
+    padding: 9px 14px;
+    margin: 32px 30px 0 0;
+    background-color: #48a2df;
+    float: right;
+    color: white;
+    text-decoration: none;
+}
+
+header a.button:hover {
+    background-color: #4391C4;
+}
+
+div#noResults {
+    height: 70px;
+    width: 500px;
+    text-align: center;
+    padding-top: 10px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #e74c3c;
+}
+
+div#container {
+    width: 60%;
+    height: 100%;
+    min-height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding-top: 10px;
+}
+
+div#friends {
+    float: right;
+    width: 300px;
+}
+
+div#friends h3 {
+    text-align: center;
+    border-bottom: 2px solid #9A7BC7;
+    padding-bottom: 10px;
+}
+
+div#friends div.friend {
+    width: 100%;
+    height: 90px;
+    padding: 10px;
+    border-bottom: 2px solid #9A7BC7;
+}
+
+div#friends div.friend img {
+    width: 70px;
+    float: left;
+    margin-right: 10px;
+}
+
+div#friends div.friend a {
+    text-decoration: none;
+    color: #2980b9;
+}
+
+div#friends div.friend a:hover{
+    text-decoration: underline;   
+}
+
+div#container div.result {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-bottom: 2px solid #EFE9F2;
+    height: 140px;
+    position: relative;
+}
+
+div#container div.result img.profilePic {
+    margin: 9px 0 0 9px;
+    width: 120px;
+    float: left;
+}
+
+div#container div.result a.profileLink {
+    font-size: 22px;
+    margin-left: 5px;
+    top: 10px;
+    color: #2980b9;
+    text-decoration: none;
+    position: absolute;
+}
+
+div#container div.result a.profileLink:hover {
+    text-decoration: underline;
+}
+
+div#container div.result span.city {
+    margin-left: 5px;
+    top: 50px;
+    position: absolute;
+}
+
+div#container div#topColor {
+    background-color: #2ecc71; /* People will be able to change this to their favourite color */
+    width: 100%;
+    height: 230px;
+    margin-top: -10px;
+}
+
+div#container img#profilePic {
+    width: 250px;
+    /*margin: 90px 0 0 30px;*/
+    border: 3px solid #EFE9F2;
+    position: absolute;
+    top: 220px;
+    left: calc(20% + 50px);
+}
+
+div#container .accountLink {
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #3498db;
+    right: calc(20% + 10px);
+    top: 270px;
+    border: none;
+}
+
+div#container .accountLink:hover {
+    background-color: #4391C4;
+}
+
+div#container span#name {
+    font-size: 50px;
+    margin-left: 310px;
+}
+
+hr {
+    width: 80%;
+    height: 3px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    background-color: #EFE9F2;
+}
+
+div#container ul#info {
+    margin-top: 100px;
+    margin-left: 40px;
+    list-style: none;
+}
+
+div#container ul#info li {
+    display: block;
+    
+}
+
+/*---------------------------------*/
+
+div#edit {
+    width: 50%;
+    height: 100%;
+    padding-left: 60px;
+    padding-top: 20px;
+    float: left;
+}
+
+h2 {
+    font-size: 35px;
+    margin-left: 60px;
+}
+
+div#edit label.edit {
+    display: block;
+    margin-top: 8px;
+    margin-bottom: -15px;
+}
+
+div#edit input[type="text"], input[type="password"] {
+    height: 30px;
+    padding-left: 5px;
+    outline: 0 none;
+}
+
+div#edit input[type="submit"] {
+    margin-top: 10px;
+    background-color: #48a2df;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+}
+
+div#edit input[type="submit"]:hover {
+    background-color: #4391C4;
+}
+
+/*--------------------------------*/
+
+div#current {
+    width: 50%;
+    float: right;
+}
+
+div#current h3 {
+    text-align: center;
+}
+
+div#current img {
+    width: 90%;
+    margin-right: 60px;
+    margin-top: 18px;
+}
+
+/*--------------------------------*/
+
+footer div.wrapper {
+    position: fixed;
+    clear: both;
+    color: white;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 70px;
+    background-color: #421C52;
+}
+
+footer p#educational {
+    margin: 10px 0 0 30px;
+}
+
+footer p#creator {
+    font-size: 14px;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
