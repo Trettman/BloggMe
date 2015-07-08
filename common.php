@@ -1,7 +1,7 @@
 <?php
 
-    $dbusername = "studentweb";
-    $dbpassword = "sparkimuggen9688";
+    $dbusername = "sellers_bloggme";
+    $dbpassword = "[9w,Ks@]ENE_";
     $servername = "localhost";
     $dbname = "BloggMe";
     
